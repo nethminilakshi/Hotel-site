@@ -1,0 +1,33 @@
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.bg-custom-light {
+  background-color: #e6e6e6ce;
+}
+
+.bg-image-section {
+  background-image: url("/Assets/images/randiya-sea-view-hotel.jpg"); /* Replace with the path to your image */
+  background-size: cover; /* Ensure the image covers the entire section */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent the background from repeating */
+  width: 100%; /* Make sure the section is 100% wide */
+  height: 90vh; /* Set the height to full viewport height */
+  background-color: rgba(0, 0, 0, 0.8);
+  filter: brightness(0.3); /* Adjust value between 0 and 1 */
+  display: block;
+}
+.img-fluid {
+  width: 100%;
+  height: fit-content;
+  padding: 10px;
+}
+
+.custom-margin-cards {
+  margin-top: 150px;
+}
+
+.custom-bg {
+  background-color: #f3f3f3;
+}

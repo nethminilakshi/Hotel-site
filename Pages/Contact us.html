@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/contact.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+DE+Grund:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="m-0 p-0 bg-custom-light">
+    <header class="fixed-top">
+      <nav class="navbar navbar-expand-lg bg-transparent">
+        <div class="container-fluid">
+          <div class="p-2">
+            <a class="navbar-brand" href="#">
+              <img
+                class="ms-4"
+                alt="taj-logo"
+                height="50px"
+                src="https://cdn.sanity.io/images/ocl5w36p/production/eaf9ae941361d173fdbd613ba600197b69471d50-100x88.png"
+              />
+            </a>
+          </div>
+          <div class="p-2">
+            <button
+              class="navbar-toggler border-white"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <div class="p-2">
+            <div class="collapse navbar-collapse me-2" id="navbarNav">
+              <ul class="navbar-nav fw-bold fs-5">
+                <li class="nav-item p-2">
+                  <a
+                    class="nav-link text-white"
+                    aria-current="page"
+                    href="/Pages/index.html"
+                    >Overview</a
+                  >
+                </li>
+                <li class="nav-item p-2">
+                  <a class="nav-link text-white" href="/Pages/gallery.html"
+                    >Gallery</a
+                  >
+                </li>
+                <li class="nav-item p-2">
+                  <a class="nav-link text-white" href="/Pages/dining.html"
+                    >Dining</a
+                  >
+                </li>
+                <li class="nav-item p-2">
+                  <a class="nav-link text-white" href="/Pages/Contact us.html"
+                    >Contact Us</a
+                  >
+                </li>
+
+                <li class="nav-item dropdown m-1 p-2">
+                  <div class="dropdown">
+                    <button
+                      class="btn text-white dropdown-toggle"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      More
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="/Pages/offers.html"
+                          >Offers</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/Pages/About.html"
+                          >About</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Something else here</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+
+                <li class="nav-item p-2">
+                  <button class="btn btn-warning opacity-75 rounded-4">
+                    Book a stay
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="m-0 p-0 bg-custom-light">
+      <div class="container-flu id m-0 p-0">
+        <div class="row m-0 p-0 d-flex flex-column">
+          <div class="col-md-6 bg-image-section" style="width: 100%">
+            <!-- Optional content for the section with background image -->
+            <div class="text-black p-5"></div>
+          </div>
+          <div
+            class="w-100 py-3"
+            style="background-color: rgba(32, 32, 32, 0.8)"
+          >
+            <div class="container">
+              <form class="row align-items-center">
+                <!-- Date picker section -->
+                <div class="col-md-4">
+                  <div class="d-flex align-items-center">
+                    <div class="input-group">
+                      <span
+                        class="input-group-text bg-dark text-white border-secondary"
+                      >
+                        <i class="bi bi-calendar"></i>
+                      </span>
+                      <input
+                        type="date"
+                        class="form-control bg-dark text-white border-secondary"
+                        id="checkIn"
+                      />
+                      <span
+                        class="input-group-text bg-dark text-white border-secondary"
+                      >
+                        <i class="bi bi-arrow-right"></i>
+                      </span>
+                      <input
+                        type="date"
+                        class="form-control bg-dark text-white border-secondary"
+                        id="checkOut"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-3">
+                  <div class="input-group">
+                    <span
+                      class="input-group-text bg-dark text-white border-secondary"
+                    >
+                      <i class="bi bi-gift"></i>
+                    </span>
+                    <input
+                      type="text"
+                      class="form-control bg-dark text-white border-secondary"
+                      placeholder="PROMO CODE"
+                    />
+                  </div>
+                </div>
+
+                <div class="col-md-2">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="flexibleDates"
+                    />
+                    <label
+                      class="form-check-label text-white"
+                      for="flexibleDates"
+                    >
+                      FLEXIBLE DATES
+                    </label>
+                  </div>
+                </div>
+
+                <div class="col-md-3">
+                  <button type="submit" class="btn btn-warning w-100">
+                    CHECK AVAILABILITY
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <!-- other content -->
+          <div class="col-12 py-5">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-4">
+                  <p class="text-warning-emphasis fs-5 fst-italic">
+                    Know more about our services
+                  </p>
+                  <p class="text-uppercase fs-1 text-secondary">Contact Us</p>
+                </div>
+
+                <div class="col-md-8">
+                  <p class="text-body-tertiary mb-4">
+                    Your gateway to seamless communication with our dedicated
+                    team. Whether you have inquiries, feedback, or wish to make
+                    a reservation, we’re here to assist you every step of the
+                    way. Reach out to us via phone, email, or the convenient
+                    contact form below. Our friendly staff is committed to
+                    ensuring your experience with Avenra Hotels exceeds your
+                    expectations. Let us turn your inquiries into unforgettable
+                    memories. Contact us today and let the journey begin.
+                  </p>
+                  <div class="p-4 bg-white shadow-sm rounded">
+                    <form>
+                      <div class="row g-3 w-100">
+                        <div class="col-md-6">
+                          <label for="title" class="form-label">Title</label>
+                          <select class="form-select" id="title">
+                            <option selected>Select</option>
+                            <option>Mr</option>
+                            <option>Ms</option>
+                            <option>Mrs</option>
+                          </select>
+                        </div>
+                        <div class="col-md-6"></div>
+                        <div class="col-md-6">
+                          <label for="firstName" class="form-label"
+                            >First Name *</label
+                          >
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="firstName"
+                            placeholder="First Name"
+                          />
+                        </div>
+                        <div class="col-md-6">
+                          <label for="lastName" class="form-label"
+                            >Last Name *</label
+                          >
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="lastName"
+                            placeholder="Last Name"
+                          />
+                        </div>
+                        <div class="col-md-6">
+                          <label for="email" class="form-label">Email *</label>
+                          <input
+                            type="email"
+                            class="form-control"
+                            id="email"
+                            placeholder="Email"
+                          />
+                        </div>
+                        <div class="col-md-6">
+                          <label for="country" class="form-label"
+                            >Country/Region of Residence</label
+                          >
+                          <select class="form-select" id="country">
+                            <option selected>Select Country</option>
+                            <option>United States</option>
+                            <option>Canada</option>
+                            <option>United Kingdom</option>
+                          </select>
+                        </div>
+                        <div class="col-md-6">
+                          <label for="contactNumber" class="form-label"
+                            >Contact Number *</label
+                          >
+                          <div class="input-group">
+                            <select class="form-select" style="max-width: 80px">
+                              <option selected>+1</option>
+                              <option>+44</option>
+                              <option>+91</option>
+                            </select>
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="contactNumber"
+                              placeholder="Contact Number"
+                            />
+                          </div>
+                        </div>
+                        <div class="col-md-6 m-3">
+                          <label for="enquiryType" class="form-label"
+                            >Nature of Enquiry *</label
+                          >
+                          <select class="form-select" id="enquiryType">
+                            <option selected>Select Enquiry Type</option>
+                            <option>General</option>
+                            <option>Sales</option>
+                            <option>Support</option>
+                          </select>
+                        </div>
+                        <div class="col-md-12">
+                          <label for="property" class="form-label"
+                            >Property</label
+                          >
+                          <select class="form-select" id="property">
+                            <option selected>Select Property</option>
+                            <option>Property 1</option>
+                            <option>Property 2</option>
+                            <option>Property 3</option>
+                          </select>
+                        </div>
+                        <div class="col-md-12">
+                          <label for="message" class="form-label"
+                            >Message *</label
+                          >
+                          <textarea
+                            class="form-control"
+                            id="message"
+                            rows="4"
+                            placeholder="Enter your message here"
+                          ></textarea>
+                        </div>
+
+                        <!-- Privacy Policy and Terms -->
+                        <div class="col-md-12">
+                          <div class="form-check">
+                            <input
+                              class="form-check-input"
+                              type="checkbox"
+                              id="privacyPolicy"
+                            />
+                            <label class="form-check-label" for="privacyPolicy">
+                              I agree to the <a href="#">Privacy Policy</a>
+                              <i class="bi bi-info-circle"></i>
+                            </label>
+                          </div>
+                          <small class="text-muted">
+                            By submitting this form, I agree to the
+                            <a href="#">Terms & Conditions</a>.
+                          </small>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div class="col-md-12">
+                          <button
+                            type="submit"
+                            class="btn btn-secondary mt-3 w-50 float-center"
+                          >
+                            Submit
+                          </button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+
+              <!-- </div> -->
+
+              <div class="container mt-5">
+                <div class="row g-4">
+                  <div class="col-md-4">
+                    <div class="hotel-card">
+                      <div class="decorative-circle circle-1"></div>
+                      <div class="decorative-circle circle-2"></div>
+                      <h2 class="hotel-title">Taj Hotel</h2>
+
+                      <h3 class="section-title">Banquet Inquiries</h3>
+                      <div class="contact-name">
+                        Prasanna
+                        <span class="contact-number">- 077 356 6999</span>
+                      </div>
+                      <div class="contact-name">
+                        Nipuni
+                        <span class="contact-number">- 077 036 3535</span>
+                      </div>
+                      <div class="contact-name">
+                        Nirdoshi
+                        <span class="contact-number">- 077 387 3535</span>
+                      </div>
+                      <div class="contact-name">
+                        Nimasha
+                        <span class="contact-number">- 077 799 3535</span>
+                      </div>
+
+                      <h3 class="section-title">Restaurant Inquiries</h3>
+                      <div class="contact-name">
+                        Chalana
+                        <span class="contact-number">- 077 793 1247</span>
+                      </div>
+
+                      <div class="hotline">
+                        <h3 class="section-title">Our Hotline</h3>
+                        <div class="hotline-number">031 222 8000</div>
+                        <div class="hotline-number">031 223 4141</div>
+                      </div>
+
+                      <i class="bi bi-geo-alt location-icon"></i>
+                    </div>
+                  </div>
+
+                  <div class="col-md-4">
+                    <div class="hotel-card">
+                      <div class="decorative-circle circle-1"></div>
+                      <div class="decorative-circle circle-2"></div>
+                      <h2 class="hotel-title">Taj Resort</h2>
+
+                      <h3 class="section-title">Banquet Inquiries</h3>
+                      <div class="contact-name">
+                        Vass <span class="contact-number">- 076 691 4015</span>
+                      </div>
+                      <div class="contact-name">
+                        Devinda
+                        <span class="contact-number">- 077 480 3636</span>
+                      </div>
+                      <div class="contact-name">
+                        Prasad
+                        <span class="contact-number">- 077 373 7878</span>
+                      </div>
+
+                      <h3 class="section-title">Restaurant Inquiries</h3>
+                      <div class="contact-name">
+                        Devinda
+                        <span class="contact-number">- 077 480 3636</span>
+                      </div>
+
+                      <h3 class="section-title">Rooms Inquiries</h3>
+                      <div class="contact-name">
+                        Sumudu
+                        <span class="contact-number">- 077 228 7231</span>
+                      </div>
+
+                      <div class="hotline">
+                        <h3 class="section-title">Our Hotline</h3>
+                        <div class="hotline-number">091 227 7186</div>
+                      </div>
+
+                      <i class="bi bi-geo-alt location-icon"></i>
+                    </div>
+                  </div>
+
+                  <!-- Avenra Gangaara Hotel -->
+                  <div class="col-md-4">
+                    <div class="hotel-card">
+                      <div class="decorative-circle circle-1"></div>
+                      <div class="decorative-circle circle-2"></div>
+                      <h2 class="hotel-title">Taj Spa</h2>
+
+                      <h3 class="section-title">Banquet Inquiries</h3>
+                      <div class="contact-name">
+                        Chandima
+                        <span class="contact-number">- 076 898 4999</span>
+                      </div>
+                      <div class="contact-name">
+                        Munasighe
+                        <span class="contact-number">- 076 361 2727</span>
+                      </div>
+                      <div class="contact-name">
+                        Prasanga
+                        <span class="contact-number">- 076 368 2727</span>
+                      </div>
+                      <div class="contact-name">
+                        Nilanga
+                        <span class="contact-number">- 076 861 2727</span>
+                      </div>
+
+                      <h3 class="section-title">Restaurant Inquiries</h3>
+                      <div class="contact-name">
+                        Prasanga
+                        <span class="contact-number">- 076 368 2727</span>
+                      </div>
+                      <div class="contact-name">
+                        Nilanga
+                        <span class="contact-number">- 076 861 2727</span>
+                      </div>
+
+                      <div class="hotline">
+                        <h3 class="section-title">Our Hotline</h3>
+                        <div class="hotline-number">031 225 0244</div>
+                      </div>
+
+                      <i class="bi bi-geo-alt location-icon"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>

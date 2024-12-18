@@ -1,0 +1,173 @@
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.bg-custom-light {
+  background-color: #ecececce;
+}
+
+.custom-margin {
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+.bg-image-section {
+  background-image: url("/Assets/images/randiya-sea-view-hotel.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 90vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  filter: brightness(0.3);
+  display: block;
+}
+
+.content-section {
+  height: 100vh;
+}
+
+.custom-font {
+  font-family: "Roboto", serif;
+  font-weight: 100;
+  font-style: normal;
+  color: thistle;
+  text-align: center;
+  font-size: 3.5rem;
+  letter-spacing: 1px;
+}
+
+.img-rooms {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.custom-gridBackground {
+  background-color: rgba(189, 189, 189, 0.726);
+}
+.img-fluid {
+  width: 100%;
+  height: fit-content;
+}
+.image-section {
+  width: 80%;
+  height: 40vh;
+}
+.container-fluid {
+  padding: 0;
+}
+
+.background-img {
+  z-index: 1;
+  height: 70vh !important;
+  width: 100%;
+}
+
+.bg-image img {
+  object-fit: cover;
+}
+.custom-marginbox {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.custom-position {
+  position: relative;
+  left: 260px;
+  bottom: 250px;
+  z-index: 2;
+}
+
+.custom-Backgrounds {
+  background-color: rgb(230, 230, 230);
+}
+
+.custom-margin-cards {
+  margin-top: 100px;
+}
+
+footer {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 60px 0 30px;
+}
+
+.footer-logo {
+  max-width: 200px;
+  margin-bottom: 30px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 15px;
+}
+
+.footer-links a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #d4af37;
+}
+
+.subscribe-btn {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+.subscribe-btn:hover {
+  background-color: #d4af37;
+  border-color: #d4af37;
+}
+
+.social-icons {
+  margin-top: 30px;
+}
+
+.social-icons a {
+  color: #ffffff;
+  margin-right: 20px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-bottom a {
+  color: #999;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+.footer-bottom p {
+  color: #999;
+  font-size: 14px;
+  margin: 0;
+}
+
+.contact-info {
+  margin-bottom: 30px;
+}
+
+.contact-info a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+}
