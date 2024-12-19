@@ -12,6 +12,17 @@ body {
   margin-right: 6%;
 }
 
+/* .navbar-nav .nav-link,
+.navbar .navbar-brand {
+  color: white !important;
+}
+.navbar-toggler {
+  border-color: white;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+} */
+
 .bg-image-section {
   background-image: url("/Assets/images/randiya-sea-view-hotel.jpg");
   background-size: cover;
@@ -84,90 +95,4 @@ body {
 
 .custom-margin-cards {
   margin-top: 100px;
-}
-
-footer {
-  background-color: #1a1a1a;
-  color: #ffffff;
-  padding: 60px 0 30px;
-}
-
-.footer-logo {
-  max-width: 200px;
-  margin-bottom: 30px;
-}
-
-.footer-links {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.footer-links li {
-  margin-bottom: 15px;
-}
-
-.footer-links a {
-  color: #ffffff;
-  text-decoration: none;
-  transition: color 0.3s;
-}
-
-.footer-links a:hover {
-  color: #d4af37;
-}
-
-.subscribe-btn {
-  background-color: transparent;
-  border: 1px solid #ffffff;
-  color: #ffffff;
-  padding: 10px 25px;
-  text-transform: uppercase;
-  transition: all 0.3s;
-}
-
-.subscribe-btn:hover {
-  background-color: #d4af37;
-  border-color: #d4af37;
-}
-
-.social-icons {
-  margin-top: 30px;
-}
-
-.social-icons a {
-  color: #ffffff;
-  margin-right: 20px;
-  font-size: 20px;
-  text-decoration: none;
-}
-
-.footer-bottom {
-  margin-top: 40px;
-  padding-top: 20px;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.footer-bottom a {
-  color: #999;
-  text-decoration: none;
-  margin-right: 20px;
-  font-size: 14px;
-}
-
-.footer-bottom p {
-  color: #999;
-  font-size: 14px;
-  margin: 0;
-}
-
-.contact-info {
-  margin-bottom: 30px;
-}
-
-.contact-info a {
-  color: #ffffff;
-  text-decoration: none;
-  display: block;
-  margin-bottom: 10px;
 }
