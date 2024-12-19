@@ -94,13 +94,15 @@
         </div>
       </nav>
     </header>
-    <main class="m-0 p-0">
-      <div class="row m-0 p-0 h-100">
-        <div class="row m-0 p-0 d-flex flex-column">
-          <div class="col-md-6 bg-image-section" style="width: 100%">
-            <!-- Optional content for the section with background image -->
+    <main class="min-vh-100 d-flex flex-column">
+      <div class="row m-0 p-0 flex-grow-1">
+        <div class="d-flex flex-column w-100 p-0">
+          <!-- Background Image Section -->
+          <div class="bg-image-section" style="height: 500px; width: 100%">
             <div class="text-black p-5"></div>
           </div>
+
+          <!-- Booking Bar -->
           <div class="w-100 py-3" style="background-color: rgba(0, 0, 0, 0.8)">
             <div class="container">
               <form class="row align-items-center">
@@ -172,9 +174,11 @@
             </div>
           </div>
 
-          <div class="col-12 py-5">
+          <!-- Gallery Content -->
+          <div class="flex-grow-1 py-5">
             <div class="container">
-              <div class="row">
+              <!-- Gallery Header -->
+              <div class="row mb-5">
                 <div class="col-md-4">
                   <p class="text-uppercase fs-1 text-secondary">Gallery</p>
                 </div>
@@ -188,102 +192,109 @@
                     register.
                   </p>
                 </div>
+              </div>
 
-                <div class="container text-center">
-                  <div class="row">
-                    <div class="col-md-8">
-                      <img
-                        src="/Assets/images/gallery img1.jpg"
-                        alt=""
-                        class="img-fluid w-100"
-                      />
-                    </div>
-                    <div class="col-6 col-md-4 d-flex flex-column">
+              <!-- Gallery Grid -->
+              <div class="container mb-5">
+                <!-- First Row -->
+                <div class="row mb-4">
+                  <div class="col-md-8">
+                    <img
+                      src="/Assets/images/gallery img1.jpg"
+                      alt=""
+                      class="img-fluid w-100 h-100 object-fit-cover"
+                    />
+                  </div>
+                  <div class="col-6 col-md-4">
+                    <div class="d-flex flex-column gap-4 h-100">
                       <img
                         src="/Assets/images/gallery img2.jpg"
                         alt=""
-                        class="img-fluid w-100"
+                        class="img-fluid w-100 object-fit-cover"
+                        style="height: calc(50% - 8px)"
                       />
                       <img
                         src="/Assets/images/gallery img 3.jpg"
                         alt=""
-                        class="img-fluid w-100"
+                        class="img-fluid w-100 object-fit-cover"
+                        style="height: calc(50% - 8px)"
                       />
                     </div>
                   </div>
+                </div>
 
-                  <div class="row">
-                    <div class="col-6 col-md-4">
-                      <img
-                        src="/Assets/images/gallery 4.jpg"
-                        alt=""
-                        class="img-fluid w-100"
-                      />
-                    </div>
-                    <div class="col-6 col-md-4">
-                      <img
-                        src="/Assets/images/gallery 5.jpg"
-                        alt=""
-                        class="img-fluid w-100"
-                      />
-                    </div>
-                    <div class="col-6 col-md-4">
-                      <img
-                        src="/Assets/images/gallery6.webp"
-                        alt=""
-                        class="img-fluid w-100"
-                      />
-                    </div>
+                <!-- Second Row -->
+                <div class="row mb-4">
+                  <div class="col-md-4">
+                    <img
+                      src="/Assets/images/gallery 4.jpg"
+                      alt=""
+                      class="img-fluid w-100"
+                    />
                   </div>
+                  <div class="col-md-4">
+                    <img
+                      src="/Assets/images/gallery 5.jpg"
+                      alt=""
+                      class="img-fluid w-100"
+                    />
+                  </div>
+                  <div class="col-md-4">
+                    <img
+                      src="/Assets/images/gallery6.webp"
+                      alt=""
+                      class="img-fluid w-100"
+                    />
+                  </div>
+                </div>
 
-                  <div class="row">
-                    <div class="col-6">
-                      <img
-                        src="/Assets/images/gallery7.jpg"
-                        alt=""
-                        class="img-fluid w-100"
-                      />
-                    </div>
-                    <div class="col-6">
-                      <div class="row">
-                        <div class="col-6">
-                          <img
-                            src="/Assets/images/gallerry8.webp"
-                            alt=""
-                            class="img-fluid"
-                          />
-                        </div>
-                        <div class="col-6">
-                          <img
-                            src="/Assets/images/gallery9.webp"
-                            alt=""
-                            class="img-fluid"
-                          />
-                        </div>
+                <!-- Third Row -->
+                <div class="row mb-4">
+                  <div class="col-md-6">
+                    <img
+                      src="/Assets/images/gallery7.jpg"
+                      alt=""
+                      class="img-fluid w-100"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <div class="row g-4">
+                      <div class="col-6">
+                        <img
+                          src="/Assets/images/gallerry8.webp"
+                          alt=""
+                          class="img-fluid w-100"
+                        />
                       </div>
-                      <div class="row">
-                        <div class="col-6">
-                          <img
-                            src="/Assets/images/gallery10.jpg"
-                            alt="Lake view"
-                            class="img-fluid"
-                          />
-                        </div>
-                        <div class="col-6">
-                          <img
-                            src="/Assets/images/gallery11.jpg"
-                            alt="Sailing"
-                            class="img-fluid"
-                          />
-                        </div>
+                      <div class="col-6">
+                        <img
+                          src="/Assets/images/gallery9.webp"
+                          alt=""
+                          class="img-fluid w-100"
+                        />
+                      </div>
+                      <div class="col-6">
+                        <img
+                          src="/Assets/images/gallery10.jpg"
+                          alt="Lake view"
+                          class="img-fluid w-100"
+                        />
+                      </div>
+                      <div class="col-6">
+                        <img
+                          src="/Assets/images/gallery11.jpg"
+                          alt="Sailing"
+                          class="img-fluid w-100"
+                        />
                       </div>
                     </div>
                   </div>
                 </div>
 
-                <div class="container text-center">
-                  <div class="row">
-                    <div class="col-6 col-md-4 d-flex flex-column">
+                <!-- Fourth Row -->
+                <div class="row mb-4">
+                  <div class="col-md-4">
+                    <div class="d-flex flex-column gap-4">
                       <img
                         src="/Assets/images/gallery 12.jpg"
                         alt=""
@@ -295,64 +306,65 @@
                         class="img-fluid w-100"
                       />
                     </div>
-                    <div class="col-md-8">
-                      <img
-                        src="/Assets/images/gallery14.jpg"
-                        alt=""
-                        class="img-fluid w-100"
-                      />
-                    </div>
                   </div>
-                  <div class="row">
-                    <div class="col-6">
-                      <img
-                        src="/Assets/images/gallery15.jpg"
-                        alt=""
-                        class="img-fluid w-100"
-                      />
-                    </div>
-                    <div class="col-6">
-                      <img
-                        src="/Assets/images/gallery16.jpg"
-                        alt=""
-                        class="img-fluid w-100"
-                      />
-                    </div>
+                  <div class="col-md-8">
+                    <img
+                      src="/Assets/images/gallery14.jpg"
+                      alt=""
+                      class="img-fluid w-100 h-100 object-fit-cover"
+                    />
                   </div>
-                  <div class="row">
-                    <div class="col-8">
-                      <img
-                        src="/Assets/images/gallery17.jpg"
-                        alt=""
-                        class="img-fluid w-100 h-100 object-fit-cover"
-                      />
-                    </div>
-                    <div class="col-4">
-                      <img
-                        src="/Assets/images/gallery18.webp"
-                        alt=""
-                        class="img-fluid w-100 h-100 object-fit-cover"
-                      />
-                    </div>
+                </div>
+
+                <!-- Fifth Row -->
+                <div class="row mb-4">
+                  <div class="col-md-6">
+                    <img
+                      src="/Assets/images/gallery15.jpg"
+                      alt=""
+                      class="img-fluid w-100"
+                    />
+                  </div>
+                  <div class="col-md-6">
+                    <img
+                      src="/Assets/images/gallery16.jpg"
+                      alt=""
+                      class="img-fluid w-100"
+                    />
+                  </div>
+                </div>
+
+                <!-- Sixth Row -->
+                <div class="row">
+                  <div class="col-md-8">
+                    <img
+                      src="/Assets/images/gallery17.jpg"
+                      alt=""
+                      class="img-fluid w-100 h-100 object-fit-cover"
+                    />
+                  </div>
+                  <div class="col-md-4">
+                    <img
+                      src="/Assets/images/gallery18.webp"
+                      alt=""
+                      class="img-fluid w-100 h-100 object-fit-cover"
+                    />
                   </div>
                 </div>
               </div>
 
-              <div
-                class="container text-center custom-margin-cards w-75 custom-margin-cards position-absolute d-flex flex-column align-items-center w-50 justify-content-center"
-              >
-                <p
-                  class="p-4 m-2 text-body-tertiary bg-white shadow-sm rounded fs-3"
-                >
-                  Special Offers
-                </p>
+              <!-- Special Offers Section -->
+              <div class="container text-center mt-5">
+                <div class="bg-white shadow-sm rounded p-4 mb-4">
+                  <h2 class="fs-3 mb-0">Special Offers</h2>
+                </div>
                 <p class="fs-1 text-warning-emphasis fst-italic py-4">
                   Find Your Bliss
                 </p>
-                <div class="row">
-                  <div class="col">
-                    <div class="card shadow-sm">
-                      <div class="card-img-top position-relative">
+                <div class="row g-4">
+                  <div class="col-md-6">
+                    <div class="card shadow-sm h-100">
+                      <div class="position-relative">
                         <img
                           src="/Assets/images/gallery-bliss.webp"
                           class="card-img-top"
@@ -366,17 +378,16 @@
                             Splendid Seasonal Soiree
                           </h5>
                           <p class="card-text text-white">
-                            start planing your end of year gateway.Explre our
+                            Start planning your end of year getaway. Explore our
                             plans for Christmas and New Year in sunny Sri Lanka
                           </p>
                         </div>
                       </div>
                     </div>
                   </div>
-
-                  <div class="col">
-                    <div class="card shadow-sm">
-                      <div class="card-img-top position-relative">
+                  <div class="col-md-6">
+                    <div class="card shadow-sm h-100">
+                      <div class="position-relative">
                         <img
                           src="/Assets/images/gallery-bliss2.jpg"
                           class="card-img-top"
@@ -389,9 +400,10 @@
                           <h5 class="card-title text-white">
                             Advance Purchase Special
                           </h5>
-                          <p class="card-text text-white">Book</p>
-                          early and save up to 20% with daily breakfast for two
-                          persons
+                          <p class="card-text text-white">
+                            Book early and save up to 20% with daily breakfast
+                            for two persons
+                          </p>
                         </div>
                       </div>
                     </div>
